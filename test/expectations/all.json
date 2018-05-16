@@ -1,0 +1,21 @@
+{
+  "scenarioName": "all",
+  "scenarioStateIs": "Scenario.START",
+  "newScenarioState": "Scenario.START",
+  "request": {
+    "method": "GET",
+    "url": {
+      "matches" : "/.*/"
+    }
+  },
+  "response": {
+    "statusCode": 200,
+    "body": {"status": 200, "description": "Catch-all scenario"},
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "delayMillis": 3000
+  },
+  "proxyTo": null,
+  "priority" : 0
+}

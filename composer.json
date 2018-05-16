@@ -1,0 +1,12 @@
+{
+    "name": "adshares/adserver-frontend",
+    "require-dev": {
+        "mcustiel/phiremock": "^1.8"
+    },
+    "config" : {
+        "platform" : {
+            "php" : "7.1"
+        },
+        "bin-dir": "bin/vendor"
+    }
+}
