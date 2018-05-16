@@ -46,3 +46,6 @@ Thumbs.db
 
 # QA
 /.scannerwork
+
+/vendor/
+/bin/vendor/
