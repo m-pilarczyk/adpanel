@@ -48,10 +48,6 @@
       >
         <span
           class="lowercase-to-capitalize"
-          [class.red]="notificationActionsEnum[notificationAction] === 'DELETE'"
-          [class.blue]="
-            notificationActionsEnum[notificationAction] === 'EDIT' ||
-            notificationActionsEnum[notificationAction] === 'CHANGE'"
           [class.gray]="notificationActionsEnum[notificationAction] === 'DISMISS'"
         >
           {{ notificationActionsEnum[notificationAction] }}

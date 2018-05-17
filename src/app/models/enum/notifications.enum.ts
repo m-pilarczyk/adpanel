@@ -13,8 +13,5 @@ export enum notificationTypesEnum {
 }
 
 export enum notificationActionsEnum {
-  CHANGE,
-  EDIT,
-  DELETE,
   DISMISS
 }
