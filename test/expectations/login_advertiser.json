@@ -5,7 +5,7 @@
       "isEqualTo": "/auth/login"
     },
     "body" : {
-      "matches" : "/login.*jan@wp.pl.*password.*adshares/is"
+      "matches" : "/login.*advertiser@wp.pl.*password.*password12345"
     }
   },
   "response": {
@@ -14,7 +14,7 @@
       "id": 1,
       "email": "sth@sth.sth",
       "isAdvertiser": true,
-      "isPublisher": true,
+      "isPublisher": false,
       "isAdmin": false,
       "isEmailConfirmed": true,
       "authToken": "someauthtokenvalue",
