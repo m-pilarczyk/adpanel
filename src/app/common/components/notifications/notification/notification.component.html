@@ -9,6 +9,7 @@
         adsh-icon
         adsh-icon--large"
       [src]="'assets/images/notifications/' + notificationTypesEnum[notification.notificationType].toLowerCase() + '.svg'"
+      [alt] = "notificationTypesEnum[notification.notificationType]"
     >
   </div>
 
